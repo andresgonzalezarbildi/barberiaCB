@@ -2526,7 +2526,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #544d55;
+		background: #7e4100cd;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2790,6 +2790,7 @@ input, select, textarea {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
+			letter-spacing: 0.3em;
 		}
 
 /* Footer */
@@ -3299,4 +3300,7 @@ input, select, textarea {
 					display: none;
 				}
 
+	}
+	.black {
+		font-weight: 700;
 	}
